@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 
 /* common styles */
 * {
@@ -13,7 +14,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -32,6 +33,7 @@ ul {
 }
 li {
     list-style: none;
+    transition: 1s;
 }
 li a {
     color: #2c3e50;
@@ -43,4 +45,42 @@ li a {
 li a:hover {
     color: #3498db;
     transition: 1s ease-in-out;
+}
+
+/* contents styles */
+.content {
+    transition: 1s;
+    margin-top: 20%;
+}
+.content h1 {
+    color: #2c3e50;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.content p {
+    color: #bdc3c7;
+    margin-bottom: 70px;
+}
+.content button {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    background: #3498db;
+    
+}
+.content button:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.image {
+    width: 40%;
+}
+.image img {
+    transition: 1s;
+    margin-top: 60px;
+    width: 115%;
 }
